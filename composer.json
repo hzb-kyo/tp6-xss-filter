@@ -1,0 +1,26 @@
+{
+	"name": "kyo/tp6-xss-filter",
+	"description": "xss过滤器 防xss攻击",
+	"keywords": [
+		"kyo",
+		"xssfilter",
+		"xss-filter",
+		"xss",
+		"filter"
+	],
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"kyo\\": "src/"
+		}
+	},
+	"authors": [{
+		"name": "kyo",
+		"email": "740312550@qq.com"
+	}],
+	"require": {
+		"php": ">=7.1"
+	},
+	"minimum-stability": "dev"
+}
